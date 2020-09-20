@@ -1,0 +1,177 @@
+/* * * * * * * * * * Header * * * * * * * * * */
+
+.header-container-contact {
+    height: 340px;
+    display: flex;
+    background-color: var(--color-blue);
+}
+
+.header-contact-content {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hello-heading {
+    margin-right: 2em;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.6em;
+    line-height: 1.1em;
+    letter-spacing: -2%;
+}
+
+.img-hello-container {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-hello {
+    width: 11em;
+    margin-bottom: -0.25em;
+    
+}
+
+/* * * * * * * * * * Nav * * * * * * * * * */
+
+.nav {
+    background-color: #fff;
+}
+
+/* * * * * * * * * * Contact * * * * * * * * * */
+
+.main-contaioner-contact {
+    height: 34em;
+    background-color: #A9A19E;
+    display: flex;
+}
+
+.contact-header {
+    flex: 1;
+    padding-top: 120px;
+}
+
+.contact-email {
+    flex: 1;
+    padding-top: 120px;
+}
+
+.contact-heading {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.6em;
+    line-height: 1.1em;
+    letter-spacing: -2%;
+    color: #fff;
+    padding: 80px;
+    padding-top: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+/* * * Mail container * * */
+
+
+.contact-form {
+    padding-right: 7.5em;
+}
+
+.message {
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.submit {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 8em;
+    padding: 1.3em 2.8em 1.3em 2.8em;
+    width: 14em;
+    height: 4em;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin-top: 2em;
+    float: right;
+}
+
+.label {
+    color: #fff;
+    display: block;
+    margin-bottom: 0.8em;
+}
+
+.mail,
+.message {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.8em;
+    height: 2.5em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.8em;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000;
+}
+
+.message {
+    height: 7.5em;
+    resize: none;
+}
+::placeholder {
+    color: #000;
+}
+/* * * * * * * * * * Map * * * * * * * * * */
+
+.map {
+   width: 62em;
+}
+
+.map-figure {
+    position: relative;
+}
+
+.pin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.map-container {
+    position: relative;
+}
+
+.yellow-block {
+    position: absolute;
+    top: 2.5em;
+    left: 5em;
+    z-index: 10;
+    padding: 1.5em;
+    min-height: 13em;
+    width: 20em;
+    background: #FAB131;
+}
+
+.yellow-text {
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+.yellow-heading {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.6em;
+    line-height: 1.1em;
+    color: #fff;
+    margin-bottom: 0.2em;
+}
+
+/* * * * * * * * * * Footer Contact * * * * * * * * * */
+
+.footer-box-two {
+    margin-top: -0.5em;
+}
+
